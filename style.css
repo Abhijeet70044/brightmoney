@@ -1,0 +1,395 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 10px 20px;
+}
+
+.text {
+  font-size: 16px;
+  color: #5b5959;
+  margin-left: 450px;
+  position: relative;
+  top: -13px;
+}
+
+.logo {
+  max-height: 40px;
+  margin-left: 200px;
+  cursor: pointer;
+}
+
+.apple {
+  float: right;
+  margin-right: 230px;
+  cursor: pointer;
+}
+
+.play {
+  float: right;
+  cursor: pointer;
+}
+.hero {
+  text-align: center;
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #deedde, #e0e6c5);
+  line-height: 1.5;
+  color: #333;
+}
+
+
+.hero h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #333;
+}
+
+
+.hero .bold {
+  font-weight: bolder;
+  color: #221414;
+}
+
+.hero ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  margin-left: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+ .hero ul li {
+  font-size: 1.2rem;
+  color: #221414;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+} 
+
+.hero ul .tick {
+  color: #28a745;
+  font-size: 1.5rem;
+}
+
+.app-preview {
+  margin-top: 10px;
+  max-width: 100%;
+  z-index: 2;
+}
+
+.app-preview img {
+  width: 100%;
+  max-width: 1100px;
+  height: 700px;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 50px;
+  transform: translateY(20%);
+  position: relative;
+
+}
+
+.features {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.features h2 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.features-list div {
+  width: 30%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+footer .brands img {
+  margin: 10px;
+  max-height: 30px;
+}
+
+.how-to-pay-off {
+  padding: 50px 20px;
+  background-color: #f8fff4;
+  text-align: center;
+}
+
+.how-to-pay-off h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.step-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.step-image img, .step-image-2 img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.step-content {
+  text-align: left;
+  max-width: 500px;
+}
+
+.step-content-2 {
+  text-align: left;
+  max-width: 500px;
+  margin-left: 68px;
+}
+
+.step-content h3, .step-content-2 h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+
+.step-content h4, .step-content-2 h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.step-content p , .step-content-2 p  {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.apply-now {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .step, .step-2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .step-content, .step-content-2 {
+    text-align: center;
+  }
+
+  .step-image img, .step-image-2 {
+    margin-bottom: 20px;
+  }
+}
+
+.testimonials {
+  padding: 50px 20px;
+  text-align: center;
+  background: #fffffe;
+}
+
+.testimonials p {
+  color: #333;
+}
+
+.testimonials h2 {
+  font: optional;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.testimonial-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial {
+  width: 300px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.testimonial p {
+  font-size: 1rem;
+  color: #585252;
+}
+
+.faq {
+  padding: 50px 20px;
+  background: #f8fff4;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.faq ul {
+  list-style: none;
+  padding: 0;
+}
+
+.faq li {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.crush-debt {
+  padding: 50px 20px;
+  text-align: center;
+  background: #e0f4de;
+}
+
+.crush-debt h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.crush-debt img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.crush-debt p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.about {
+  color: #555;
+  padding-left: 70px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+  .text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .hero ul {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+
+  .features-list div {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    font-size: 2rem;
+  }
+
+  .hero ul {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .features-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-list div {
+    width: 80%;
+  }
+
+  .step, .step-2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .step-content {
+    max-width: 100%;
+  }
+
+  .testimonial {
+    width: 90%;
+  }
+
+  .about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .text {
+    font-size: 0px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .features h2, .how-to-pay-off h2, .testimonials h2, .faq h2, .crush-debt h2 {
+    font-size: 1.5rem;
+  }
+
+  .apply-now {
+    font-size: 0.9rem;
+  }
+}
